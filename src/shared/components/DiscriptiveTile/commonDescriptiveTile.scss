@@ -1,0 +1,13 @@
+.container-wrap {
+    background-color: #FFF;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 350px;
+    height: 450px;
+    padding: 2rem;
+    opacity: .8;
+}
+
+.remove-overflow {
+    overflow: hidden !important;
+}
