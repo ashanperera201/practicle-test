@@ -14,12 +14,12 @@ const DescriptiveTileList = (props: IDescriptiveTileList): JSX.Element => {
 
     return (
         <>
-            <div className='absolute w-2/5 h-2/5'>
+            <div className='absolute w-2/5 h-2/5 max-sm:bottom-1/3'>
                 <h3 className='font-bold text-3xl text-end'>DONEC NEC JUSTO</h3>
                 <div className='flex flex-row overflow-x-scroll'>
                     {
                         tiles.map((e, i) => (
-                            <div className='p-5' key={i}>
+                            <div className='p-5 ' key={i}>
                                 <DescriptiveTile title={e.title} description={e.description} />
                             </div>
                         ))

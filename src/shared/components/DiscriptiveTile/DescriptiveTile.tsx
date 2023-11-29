@@ -13,9 +13,9 @@ const DescriptiveTile = (props: IDescriptiveTile): JSX.Element => {
 
     return (
         <>
-            <div className='container-wrap flex flex-col '>
+            <div className='container-wrap w-64 max-sm:w-60 p-4 h-80 flex flex-col '>
                 <h3 className='font-bold'>{title}</h3>
-                <h5 className='font-normal text-3xl'>
+                <h5 className='font-normal text-2xl'>
                     {description}
                 </h5>
             </div>

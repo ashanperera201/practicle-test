@@ -62,7 +62,7 @@ function App() {
               {
 
                 <>
-                  <div className='absolute right-0 flex flex-col gap-3 items-end'>
+                  <div className='max-sm:hidden flex absolute right-0 flex-col gap-3 items-end'>
                     <>
                       {
                         data.map((el, i) => (

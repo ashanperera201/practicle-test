@@ -14,8 +14,8 @@ const Logo = (props: ILogoProps): JSX.Element => {
 
     return (
         <>
-            <div className='flex flex-row justify-between absolute top-0 w-full p-6'>
-                <div className='logo-container border font-semibold border-black flex flex-row justify-center items-center uppercase'>
+            <div className='flex flex-row max-sm:flex-col max-sm:justify-center justify-between absolute top-0 w-full items-center p-6'>
+                <div className='h-14 w-36 border font-semibold border-black flex flex-row justify-center items-center uppercase'>
                     Logo
                 </div>
 
@@ -23,7 +23,7 @@ const Logo = (props: ILogoProps): JSX.Element => {
                     {
                         showRightHeader && (
                             <>
-                                <h3 className='uppercase'>Discover Mode</h3>
+                                <h3 className='uppercase max-sm:mt-3'>Discover Mode</h3>
                             </>
                         )
                     }
